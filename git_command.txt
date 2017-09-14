@@ -1,0 +1,5 @@
+git add fileanme
+git commit -m "some comments"
+git checkout -- filename
+git reset HEAD filename
+
