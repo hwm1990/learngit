@@ -6,4 +6,12 @@ git checkout -- filename 场景1 当你改乱了工作区某个文件的内容�
 
 git reset HEAD filename当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作
 
-rm filename    git rm filename      
+rm filename    git rm filename 
+
+git remote add origin git@server-name:path/repo-name.git 关联远程仓库
+
+git push -u origin master 第一次推送master分支的所有内容要加-u参数
+
+git push origin master 向远程推送修改
+
+     
