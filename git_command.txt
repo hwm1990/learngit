@@ -16,9 +16,9 @@ git push origin master 向远程推送修改
 
 git branch 查看分支
 
-git branch <name> 创建分之
+git branch <name> 创建分支
 
-git checkout <name>  切换分之
+git checkout <name>  切换分支
 
 git checkout -b <name> 创建+切换分支
 
