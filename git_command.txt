@@ -30,5 +30,13 @@ git branch -d <name> 删除分支
 
 git log --graph --pretty=oneline --abbrev-commit  查看分支合并图
 
+git stash  保存现有工作场景
 
+git stash list 产看保存的stash内容
+
+git stash pop 回到工作现场
+
+git stash apply stash@{0}  恢复后，stash内容并不删除
+
+git stash drop 来删除stash保存的内容
      
