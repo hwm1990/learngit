@@ -24,7 +24,11 @@ git checkout -b <name> 创建+切换分支
 
 git merge <name> 合并分支到当前分支
 
+git merge --no-ff <name> 合并分支到当前分支，使用该参数则可以使用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并。
+
 git branch -d <name> 删除分支
+
+git log --graph --pretty=oneline --abbrev-commit  查看分支合并图
 
 
      
